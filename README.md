@@ -1,4 +1,4 @@
-# 🧑‍🏭 Unite!
+# 👷 Unite!
 
 ##### English
 
@@ -91,7 +91,7 @@ Start the frontend application: `npm start` (in the frontend directory)
 
 Feel free to contact me for further questions 📧 maricic.ve@gmail.com.
 
-# Unite!
+# 👷 Unite!
 
 ##### Deutsch
 
