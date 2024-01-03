@@ -1,4 +1,4 @@
-# ✊ Unite!
+# 🧑‍🏭 Unite!
 
 ##### English
 
