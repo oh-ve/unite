@@ -1,0 +1,217 @@
+.Board {
+  margin: 50px auto;
+  padding: 20px;
+  /* background-color: #f0f0f0; */
+  border-radius: 10px;
+  width: 50%;
+}
+
+.Board img {
+  width: 50%;
+}
+
+.boardImgForm {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 50px;
+}
+
+.Board form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.Board label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.Board input[type="text"],
+textarea {
+  width: 400px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(240, 175, 53);
+  font-size: 16px;
+}
+
+.Board button[type="submit"] {
+  padding: 5px 20px;
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 120px;
+}
+
+.Board button[type="submit"]:hover {
+  background-color: #524bdf;
+}
+
+.Board div {
+  /* background-color: #f0f0f0; */
+  border-radius: 10px;
+}
+
+.Board h2 {
+  margin-bottom: 20px;
+}
+
+.Board button {
+  padding: 5px 20px;
+  margin-right: 20px;
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Board button:hover {
+  background-color: #524bdf;
+}
+
+.Board p {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.Board h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.Board a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.post-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.post-container p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.post-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.post-container form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.post-container textarea {
+  height: 50px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid rgb(240, 175, 53);
+  outline: none;
+}
+
+.post-container button[type="submit"] {
+  background-color: #6c63ff;
+  width: 120px;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  width: 120px;
+}
+
+.post-container button[type="submit"]:hover {
+  background-color: #524bdf;
+}
+
+.BoardPosts {
+  margin-top: 50px;
+}
+
+.BoardPosts button {
+  margin-bottom: 20px;
+  min-width: 100px;
+}
+.boardPostButtons {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.boardDate {
+  background-color: #c3c2d8;
+  padding: 7px;
+  border-radius: 7px;
+}
+
+.boardText {
+  padding: 7px;
+  border-radius: 7px;
+}
+
+#boardPosts {
+  display: block;
+}
+
+.boardBack {
+  display: block;
+  margin-top: 20px;
+}
+
+.replies {
+  margin-top: 50px;
+}
+
+#boardText {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.backButt {
+  background-color: #6c63ff;
+  color: white;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 120px;
+  margin: 40px 0px 40% 40%;
+}
+
+.backToMain:hover {
+  background-color: #524bdf;
+}
+
+@media only screen and (max-width: 992px) {
+  .boardImgForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .boardImgForm img {
+    width: 400px;
+  }
+}
