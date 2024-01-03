@@ -2,7 +2,7 @@
 
 ##### English
 
-[German below](#german).
+[German below](#deutsch).
 
 ## Project Overview
 
